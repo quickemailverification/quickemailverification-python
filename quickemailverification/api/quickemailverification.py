@@ -23,3 +23,17 @@ class Quickemailverification(object):
 
         return response
 
+    def sandbox(self, email, options={}):
+        """Return predefined response for predefined email address
+
+        '/verify/sandbox?email=:email' GET
+
+        Args:
+            email: send email address in query parameter
+        """
+        body = options['query'] if 'query' in options else {}
+
+        email   = six.moves.urllib.parse.quote(email)
+        response = self.client.get('/verify/sandbox?email=' + email + '', body, options)
+
+        return response
