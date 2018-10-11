@@ -100,6 +100,10 @@ A successful API call responds with the following values:
    (``niki@example.com`` -> ``niki``)
 -  **domain** ``string`` - The domain of the provided email address.
    (``niki@example.com`` -> ``example.com``)
+-  **mx_record** ``string`` - The preferred MX record of email domain. This 
+   field contains empty string when MX record is not available.
+-  **mx_domain** ``string`` - The domain name of the MX host. This field
+   contains empty string when MX record is not available.
 -  **safe\_to\_send** ``true | false`` - *true* if the email address is
    safe for deliverability
 -  **did\_you\_mean** ``string`` - Returns email suggestions if specific
