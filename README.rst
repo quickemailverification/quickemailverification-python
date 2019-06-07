@@ -8,7 +8,8 @@
 Official Email Validation API library client for Python
 =======================================================
 
-[![Build Status](https://travis-ci.org/quickemailverification/quickemailverification-python.svg?branch=master)](https://travis-ci.org/quickemailverification/quickemailverification-python)
+.. image:: https://travis-ci.org/quickemailverification/quickemailverification-python.svg?branch=master
+    :target: https://travis-ci.org/quickemailverification/quickemailverification-python
 
 QuickEmailVerification provides the quickest way to avoid fake / invalid
 emails.
