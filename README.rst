@@ -1,5 +1,5 @@
 
-.. image:: https://quickemailverification.com/extra/images/logo_github.png
+.. image:: https://quickemailverification.com/images/logo_github.png
     :target: https://quickemailverification.com
     :width: 600
     :align: center
