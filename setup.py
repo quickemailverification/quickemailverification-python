@@ -19,7 +19,7 @@ def read(*parts):
 
 setup(
     name='quickemailverification',
-    version='1.0.2',
+    version='1.0.3',
     description='Official QuickEmailVerification API library client for python',
     long_description=long_description,
     author='QuickEmailVerification',

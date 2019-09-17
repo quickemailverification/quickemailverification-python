@@ -25,7 +25,7 @@ class HttpClient(object):
         self.options = {
             'base': 'http://api.quickemailverification.com',
             'api_version': 'v1',
-            'user_agent': 'quickemailverification-python/1.0.2 (https://github.com/quickemailverification/quickemailverification-python)'
+            'user_agent': 'quickemailverification-python/1.0.3 (https://github.com/quickemailverification/quickemailverification-python)'
         }
 
         self.options.update(options)
